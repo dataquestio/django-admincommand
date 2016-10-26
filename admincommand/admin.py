@@ -10,7 +10,6 @@ try:
     from django.conf.urls import url, patterns
 except ImportError:
     from django.conf.urls.defaults import url, patterns
-from django.utils.encoding import force_unicode
 from django.http import HttpResponseForbidden
 from django.utils.safestring import mark_safe
 from django.contrib import messages
